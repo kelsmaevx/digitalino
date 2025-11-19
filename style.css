@@ -1,0 +1,144 @@
+.title-section {
+  background-image: url('images/phishing.webp'); 
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  text-align: center;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  width: 100%;
+  background: #111;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 40px auto 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 32px;
+  gap: 40px;
+}
+
+
+.content-container {
+  flex: 1;
+  max-width: 600px;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.content-container h1 {
+  font-size: 2.2em;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.content-container p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.7;
+}
+
+.content-container a {
+  display: inline-block;
+  margin-top: 32px;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    flex-direction: column;
+    padding: 24px 8px;
+    gap: 24px;
+  }
+  .author-info {
+    margin: 0 auto;
+  }
+  .content-container {
+    max-width: 100%;
+  }
+}
+
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 32px;
+}
+
+.author-info {
+  width: 220px;
+  background: #fff;
+  padding: 24px 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-photo {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.author-name {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.content-container {
+  max-width: 700px;    /* Increase from 500px to 700px or more */
+  background: #fff;
+  padding: 24px 32px;  /* Optional: reduce side padding if you want even more space */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-section {
+  display: none; /* Hide the old title section since it's now in content-container */
+}
+
+.hero-image {
+  width: 100%;
+  height: 265px;
+  background: url('images/phishing.webp') center center no-repeat;
+  
+  margin-bottom: 0;
+}
