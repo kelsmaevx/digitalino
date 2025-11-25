@@ -5,22 +5,56 @@
   <title>DigiTALINO – Empowering Smart and Responsible Netizens</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="site-header">
-    <div class="logo">DigiTalino</div>
-    <nav class="main-nav">
+      <div class="logo">DigiTalino</div>
+      <nav class="main-nav">
         <a href="index.html">Topics</a>
         <a href="ABOUT US/HTML-about-us.html">About us</a>
-    </nav>
+        </nav>
   </header>
-</body>
 
 <!--WITTY QUESTION LANDING PAGE-->
-<section class="witty-question fade-in">
+  <section class="witty-question fade-in">
       <img src="https://onlinedegrees.sandiego.edu/wp-content/uploads/2016/09/cyber-security-threats.jpeg" class="landing-img">
       <div class="landing-text slide-up">
           <h1>A STRANGER<br><span>wants to meet up, promising a REAL puppy.<br>WHAT DO YOU DO?</span></h1>
           <button class="btn-animate">Say NO and tell a trusted adult!</button>
           <button class="btn-animate">Say YES and go anyways!</button>
       </div>
-</section>
+  </section>
+
+<!-- FLIPBOX CONTAINER -->
+<div class="flipbox-container">
+
+<!--LEFT FLIPBOX-->
+    <div class="flip-box">
+        <div class="flip-box-inner">
+            <div class="flip-box-front">
+                <div class="flipbox-title">
+                    <h1>WELCOME!</h1>
+                    <small class="hint">(h)over here!</small>
+                </div>
+            </div>
+                <div class="flip-box-back">
+                    <p>DigiTALINO is a user-friendly website that teaches people how to acquire critical digital literacy skills and strong cyber-safety behaviors. It offers clear, practical guidance on how to recognize online threats, keep oneself safe, and use technology sensibly. DigiTALINO uses interactive technology and user-friendly courses to teach individuals of all ages how to confidently navigate the digital world. DigiTALINO is a dependable partner on your digital adventure, regardless of your degree of expertise.</p>
+                </div>
+        </div>
+    </div>
+
+<!--RIGHT FLIPBOX-->
+<div class="flip-box">
+    <div class="flip-box-inner">
+        <div class="flip-box-front">
+            <h1>DO YOU THINK YOU HAVE DIGITAL LITERACY?</h1>
+        </div>
+        <div class="flip-box-back">
+          <p>If your answer is no, then it's okay! Welcome to our page and come with us to broaden your knowledge in digital literacy. If you are already literate, then let's nourish your knowledge further.</p>
+        </div>
+    </div>
+</div>
+
+  </div>
+</body>
+</html>
