@@ -25,36 +25,39 @@
       </div>
   </section>
 
-<!-- FLIPBOX CONTAINER -->
-<div class="flipbox-container">
+    <!-- FLIPBOX CONTAINER -->
+    <div class="flipbox-container">
 
-<!--LEFT FLIPBOX-->
+        <!--LEFT FLIPBOX-->
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <div class="flipbox-title">
+                        <h1>WELCOME!</h1>
+                        <small class="hint">(h)over here!</small>
+                    </div>
+                </div>
+                    <div class="flip-box-back">
+                        <p>DigiTALINO is a user-friendly website that teaches people how to acquire critical digital literacy skills and strong cyber-safety behaviors. It offers clear, practical guidance on how to recognize online threats, keep oneself safe, and use technology sensibly. DigiTALINO uses interactive technology and user-friendly courses to teach individuals of all ages how to confidently navigate the digital world. DigiTALINO is a dependable partner on your digital adventure, regardless of your degree of expertise.</p>
+                    </div>
+                </div>
+            </div>
+
+    <!--RIGHT FLIPBOX-->
     <div class="flip-box">
         <div class="flip-box-inner">
             <div class="flip-box-front">
-                <div class="flipbox-title">
-                    <h1>WELCOME!</h1>
-                    <small class="hint">(h)over here!</small>
-                </div>
+                <h1>DO YOU THINK YOU HAVE DIGITAL LITERACY?</h1>
             </div>
                 <div class="flip-box-back">
-                    <p>DigiTALINO is a user-friendly website that teaches people how to acquire critical digital literacy skills and strong cyber-safety behaviors. It offers clear, practical guidance on how to recognize online threats, keep oneself safe, and use technology sensibly. DigiTALINO uses interactive technology and user-friendly courses to teach individuals of all ages how to confidently navigate the digital world. DigiTALINO is a dependable partner on your digital adventure, regardless of your degree of expertise.</p>
+                    <p>If your answer is no, then it's okay! Welcome to our page and come with us to broaden your knowledge in digital literacy. If you are already literate, then let's nourish your knowledge further.</p>
                 </div>
+            </div>
         </div>
     </div>
-
-<!--RIGHT FLIPBOX-->
-<div class="flip-box">
-    <div class="flip-box-inner">
-        <div class="flip-box-front">
-            <h1>DO YOU THINK YOU HAVE DIGITAL LITERACY?</h1>
-        </div>
-        <div class="flip-box-back">
-          <p>If your answer is no, then it's okay! Welcome to our page and come with us to broaden your knowledge in digital literacy. If you are already literate, then let's nourish your knowledge further.</p>
-        </div>
-    </div>
-</div>
-
-  </div>
+    <hr> <!--LINE BREAK-->
+    
+    
 </body>
 </html>
+
