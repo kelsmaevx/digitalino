@@ -33,7 +33,7 @@ body {
   color: #3a8bd8;
 }
 
-/*WITTY QUESTION LANDING PAGE*/
+/* WITTY QUESTION LANDING PAGE */
 .witty-question {
     position: relative;
     width: 100%;
@@ -46,15 +46,11 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
-    right: 0;
-    top: 0;
 }
 
-/* TEXT CENTERED OVER IMAGE */
 .landing-text {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 75%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -62,8 +58,9 @@ body {
     width: 40%;
 }
 
+/*BUTTONS*/
 .landing-text h1 {
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     line-height: 1.2;
     text-shadow: 0 3px 8px rgba(0,0,0,0.6);
@@ -88,4 +85,129 @@ body {
 
 .landing-text button:hover {
     transform: scale(1.20);
+}
+
+/*GENERAL THEME FOR FLIPBOXES*/
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*CONTAINER FOR FLIPBOXES*/
+.flipbox-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/*LEFT FLIPBOX*/
+.flip-box {
+  background-color: transparent;
+  width: 45%;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flipbox-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hint {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #333;
+  opacity: 0.7;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #cfe4ff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-box-back {
+  background-color: white;
+  color: black;
+  transform: rotateX(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/*RIGHT FLIPBOX*/
+.flip-boxes {
+  background-color: transparent;
+  width: 45%;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flip-box-inners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-boxes:hover .flip-box-inners {
+  transform: rotateX(180deg);
+}
+
+.flip-box-fronts, .flip-box-backs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-fronts {
+  background-color: #cfe4ff;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-box-backs {
+  background-color: white;
+  color: black;
+  transform: rotateX(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
 }
