@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   letter-spacing: 1px;
+  position: sticky;
 }
 
 .main-nav a {
@@ -100,7 +101,10 @@ body {
 .flipbox-container {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom:40px;
 }
 
 /*LEFT FLIPBOX*/
@@ -210,4 +214,12 @@ body {
   align-items: center;
   padding: 10px;
   font-size: 15px;
+}
+
+/*BREAK LINES*/
+hr {
+    background-color: blue;
+    border-style: inset;
+    height: 1.5px;
+    width: 500px;
 }
