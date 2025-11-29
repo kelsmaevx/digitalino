@@ -34,6 +34,22 @@ body {
   color: #3a8bd8;
 }
 
+/*INTRODUCTION*/
+.welcome h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.welcome p {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+
 /* WITTY QUESTION LANDING PAGE */
 .witty-question {
     position: relative;
@@ -80,7 +96,7 @@ body {
     border: none;
     color: black;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 5px;
     transition: 0.5s;
 }
 
@@ -102,17 +118,20 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 40px;
   padding-right: 50px;
   padding-bottom:40px;
+  cursor: pointer;
 }
 
 /*LEFT FLIPBOX*/
 .flip-box {
   background-color: transparent;
-  width: 45%;
-  height: 250px;
+  width: 48%;
+  height: 300px;
   perspective: 1000px;
+  border-radius: 20px; 
+  overflow: hidden;
 }
 
 .flip-box-inner {
@@ -147,6 +166,7 @@ body {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  overflow: hidden;
 }
 
 .flip-box-front {
@@ -166,13 +186,14 @@ body {
   align-items: center;
   padding: 10px;
   font-size: 15px;
+  overflow: hidden;
 }
 
 /*RIGHT FLIPBOX*/
 .flip-boxes {
   background-color: transparent;
-  width: 45%;
-  height: 250px;
+  width: 48%;
+  height: 300px;
   perspective: 1000px;
 }
 
@@ -195,6 +216,7 @@ body {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  overflow: hidden;
 }
 
 .flip-box-fronts {
@@ -214,12 +236,13 @@ body {
   align-items: center;
   padding: 10px;
   font-size: 15px;
+  overflow: hidden;
 }
 
 /*BREAK LINES*/
 hr {
-    background-color: blue;
+    background-color: #2B547E;
     border-style: inset;
     height: 1.5px;
-    width: 500px;
+    width: 1000px;
 }
